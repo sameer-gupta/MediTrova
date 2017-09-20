@@ -1,0 +1,136 @@
+
+html,
+body { 
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFFFF;
+  
+  
+}
+
+.titl{
+	font-family: 'Baloo', cursive;
+}
+
+.form-control:focus {
+	 border-color: #1FA67A;
+    box-shadow: 0 0 10px #1FA67A;
+
+}
+
+.input-group-addon{
+	color: #ffffff;
+    background: #1FA67A;
+    border-color: #1FA67A;
+}
+
+.btn, .btn:focus, .btn:hover, .btn:active {
+	color: #ffffff;
+	height: 58px;
+    font-size: 20px;
+    background: #1FA67A;
+    border-color: #1FA67A;
+    outline: none;
+
+}
+/* while the button is pressed*/
+.btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+    background: #146c4e;
+}
+
+.sp {
+	margin: 35px;
+}
+
+
+
+/* Footer */
+.footer-modified {
+	background-color: #292c2f;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+.company{
+	color:  #E8F5E9;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0;
+}
+.footer-icons{
+	margin-top: 15px;
+}
+.footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 200px;
+	font-weight: 500;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+hr {
+    margin: 0px;
+    border-width: 3.5px;	
+    border-style: solid;
+    border-color: #1FA67A;
+}
+
+
+#url, #btn {
+    font-size: 22px;
+   
+}
+
+#disp{
+	font-size: 15px;
+  	margin: 2px;
+  	font-family: 'Ubuntu', sans-serif;
+}
+
+#final {
+	display: none;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#cpy {
+
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+}
+
+a, a:focus, a:hover, a:active {
+	outline: 0;
+	border-color: red;
+	text-decoration: none;
+}
+
+.hideit{
+	display: none;
+}
